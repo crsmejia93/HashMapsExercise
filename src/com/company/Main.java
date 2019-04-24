@@ -48,7 +48,7 @@ public class Main {
                 myMap.put(scanInput.nextInt(),scanInput.nextLine());
             }
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("File was not found.");
         }
     }
 
