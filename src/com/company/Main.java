@@ -19,7 +19,7 @@ public class Main {
         System.out.print("Enter a number: ");
         key = input.nextInt();
         getValue(key, myMap);
-        //writeToFile(myMap);
+        writeToFile(myMap);
     }
 
     private static void populateFromFile(HashMap<Integer, String> myMap, String fileName) {
